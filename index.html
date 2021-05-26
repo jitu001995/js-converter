@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+     <!-- Latest compiled and minified CSS -->
+    
+     <title>Converter App In Js</title>
+</head>
+<body>
+  <div class="container">
+      <h1 class="display-4 text-center">Converter      </h1>
+       <form>
+           <h4 class="display-5 text-left mb-3">Weight</h4>
+           <div class="form-group">
+               <input type="number" id="kgsInput" 
+               class="form-control form-control-lg"
+               placeholder="Enter Kilograms..">
+           </div>
+        </form>
+        <div class="card card-Primary mb-2">
+            <div class="card-block">
+                <h4>Pounds:</h4>
+                <div id="lbsOutput"></div>
+            </div>
+        </div>
+
+        <form>
+            <h4 class="display-5 text-left mb-3">Measurement</h4>
+            <div class="form-group">
+                <input type="number" id="feetInput" 
+                class="form-control form-control-lg"
+                placeholder="Enter Feet..">
+            </div>
+         </form>
+         <div class="card card-success mb-2">
+             <div class="card-block">
+                 <h4>centimeters:</h4>
+                 <div id="cmsOutput"></div>
+             </div>
+         </div>
+
+         <form>
+            <h4 class="display-5 text-left mb-3">Temperature</h4>
+            <div class="form-group">
+                <input type="number" id="calciusInput" 
+                class="form-control form-control-lg"
+                placeholder="Enter Celcius..">
+            </div>
+         </form>
+         <div class="card card-danger mb-2">
+             <div class="card-block">
+                 <h4>Fahrenhit:</h4>
+                 <div id="farenOutput"></div>
+             </div>
+         </div>
+    </div>
+
+    <script src="main.js"></script> 
+</body>
+
+</html>
